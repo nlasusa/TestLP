@@ -1,0 +1,27 @@
+.whiteglobe-sub { background-image: url("../images/whiteglobe.jpg"); height: 300px; background-repeat: no-repeat;}
+/* //////// ****** /////////////////////////// */
+/* // BEGINNING OF TRIAL EXPERIENCE LANDING PAGE */
+.trial-header {
+    font-family: 'Raleway'; 
+    font-size: 40px; 
+    font-weight: 300;
+    margin-bottom: -1px; 
+    margin-top: 10px; 
+    padding-top: 50px; 
+    text-align: center;
+    letter-spacing: .3rem;
+    color: black;
+  }
+  
+  .trial-section .container {
+      font-family: 'Raleway'; 
+      height: 100%;
+      /* margin-top: 20px;  */
+      padding: 60px; 
+      margin-bottom: 60px; 
+      color: black;
+      /* border: 1px solid rgb(184, 184, 184); */
+      /* background-color: rgb(243, 243, 243); */
+  }
+/* // END OF TRIAL EXPERIENCE LANDING PAGE  */
+/* //////// ****** /////////////////////////// */

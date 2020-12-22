@@ -1,0 +1,55 @@
+.people-LP-sub { background-color: rgb(233, 233, 233); height: 580px; background-repeat: no-repeat;}
+.people-LP-name {
+    font-family: 'Raleway'; 
+    font-size: 40px; 
+    font-weight: 300;
+    margin-bottom: -15px; 
+    /* margin-top: 10px;  */
+    margin-top: 160px; 
+    padding-top: 50px; 
+    float: left; 
+    letter-spacing: .3rem;
+    color: black;
+  }
+
+  #people-img {
+      float: right; 
+      margin-top: 160px;
+  }
+
+  .people-LP-title {
+      float: left; 
+      color: black; 
+      font-size: 21px;
+  }
+
+  .people-LP-phone {
+    float: left; 
+    color: black; 
+    font-size: 17px;
+    letter-spacing: .14rem;
+  }
+
+  .people-LP-section {
+      color: black;
+      font-family: 'Raleway'; 
+      margin-top: 60px; 
+  }
+
+  #side-text-practice {
+      font-size: 15.5px; 
+      line-height: 30px;  
+  }
+
+  #side-text-education {
+    font-size: 15.5px; 
+    line-height: 30px; 
+}
+
+#side-text-admissions {
+    font-size: 15.5px; 
+    line-height: 30px; 
+}
+
+
+

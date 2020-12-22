@@ -1,0 +1,218 @@
+.whiteglobe-sub { background-image: url("../images/whiteglobe.jpg"); height: 300px; background-repeat: no-repeat;}
+/* //////// ****** /////////////////////////// */
+/* // BEGINNING OF PEOPLE LANDING PAGE */
+.people-header {
+    font-family: 'Raleway'; 
+    font-size: 40px; 
+    font-weight: 300;
+    margin-bottom: -15px; 
+    /* margin-top: 10px;  */
+    margin-top: 150px; 
+    padding-top: 50px; 
+    text-align: center;
+    letter-spacing: .3rem;
+    color: black;
+  }
+  
+  .people-section .container {
+    font-family: 'Raleway'; 
+    height: 100%;
+    /* margin-top: 20px;  */
+    padding: 60px; 
+    margin-bottom: 20px; 
+    color: black;
+    /* border: 1px solid rgb(184, 184, 184); */
+    /* background-color: rgb(243, 243, 243); */
+}
+
+h1,
+h2,
+h3,
+h5,
+h6,
+#people-name {
+  margin: 0 0 20px 0;
+  text-transform: none;
+  color: black;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+
+a:hover{
+  color:rgba(255,255,255,0.6);
+}
+
+.gray {
+  color: #a5a5a5;
+}
+
+.team{
+  margin:40px;
+}
+
+.team-member {
+  margin: 15px 0;
+  padding: 0;
+}
+
+.team-member figure {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.team-member figure img {
+  min-width: 100%;
+  width: 350px; 
+}
+
+.team-member figcaption p {
+  font-size: 15px;
+  font-family: 'Raleway';
+  font-weight: 300px; 
+}
+
+.team-member figcaption ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.team-member figcaption ul {
+  visibility: visible;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.team-member figcaption ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.team-member #people-name {
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 21.5px;
+}
+
+#people-name:hover {
+  color: #006dd3;
+  cursor: pointer; 
+}
+
+
+.team-member figcaption {
+  padding: 50px;
+  color: transparent;
+  background-color: transparent;
+  position: absolute;
+  z-index: 996;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member figure:hover figcaption {
+  visibility: visible;
+  color: black;
+  background: white;
+  opacity: 0.95;
+  cursor: pointer; 
+  /* Primary color, can be changed via colors.css */
+  
+  height: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member figure:hover figcaption ul li a:hover {
+  color: rgba(49, 49, 49, .97);
+}
+
+.team-member figure img {
+  -webkit-transform: scale(1) rotate(0) translateY(0);
+  -moz-transform: scale(1) rotate(0) translateY(0);
+  -o-transform: scale(1) rotate(0) translateY(0);
+  -ms-transform: scale(1) rotate(0) translateY(0);
+  transform: scale(1) rotate(0) translateY(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.team-member figure:hover img {
+  -webkit-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -moz-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -o-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -ms-transform: scale(1.1) rotate(1deg) translateY(12px);
+  transform: scale(1.1) rotate(1deg) translateY(12px);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+/* // alphabet people  */
+.alpha-head {
+  text-align: center; 
+  font-size: 18px; 
+  margin-top: 38px; 
+  margin-bottom: 25px; 
+  letter-spacing: 25px; 
+  padding: 10px; 
+  width: 100%;
+  text-decoration: none; 
+  background-color: rgb(236, 236, 236);
+}
+
+.devsite-products-alphabet-link {
+  color: black; 
+}
+
+.devsite-products-alphabet-link:hover {
+  text-decoration: none; 
+  color: #0066c8;
+  cursor: pointer; 
+}
+/* // end of alphabet people */
+
+.search-name {
+  border: 1px solid black; 
+  padding: 20px; 
+  width: 550px; 
+  color: gray; 
+  margin-top: 20px; 
+  font-family: 'Raleway';
+  font-size: 15px; 
+  letter-spacing: 2px; 
+}
+
+#people-read {
+  color: black;
+  margin-top: 10px;  
+  background-color: rgb(140, 170, 20); 
+  width: 135px; 
+  text-align: center; 
+  padding: 10px; 
+}
+
+#people-read:hover {
+  background-color: rgb(123, 150, 18); 
+  cursor: pointer; 
+}

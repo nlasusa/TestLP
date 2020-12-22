@@ -1,0 +1,150 @@
+  /* //////// ****** /////////////////////////// */
+  /* // NAV & HEADER WHITE // */
+
+  .header-wrapper {
+    width: 100%;
+    position: relative;
+    margin-top: -7px;  
+  }
+  #header-title {
+    position: absolute;
+    width: 45vw;
+    margin-top: 40%;
+    margin-left: 6.5%;
+  }
+  #logo-main {
+    margin-top: .6em; 
+    margin-left: 1em; 
+    width: 315px;
+    border-radius: 0; 
+    z-index: 5; 
+    position: absolute;  
+    padding-bottom: 10px; 
+  }
+  .navigation{
+    padding-bottom: 8px;
+    padding-right: 50px; 
+    position:absolute;
+    background-color: black;
+    top: 0px;
+    width:100%;
+    z-index:4;
+  }
+  .navbar-right{
+    float:right;
+    word-spacing: 20px; 
+    letter-spacing: .1em; 
+    margin-top: 100px; 
+    /* padding: 28px;  */
+  }
+  .navbar-right a{
+    text-decoration: none;
+    font-size: 15.5px; 
+    padding:10px;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: thin; 
+  }
+  .navbar-right a:hover{
+     background-color: rgb(151, 184, 19); 
+     color: rgb(49, 49, 49); 
+  }
+  #practice-areas {
+    word-spacing: 3px; 
+  }
+  /* //////// ****** /////////////////////////// */
+    /* // END NAV & HEADER WHITE // */
+  
+
+  /* //////// ****** /////////////////////////// */
+  /* // NAV BAR DROP DOWN */
+  .dropdown {
+    color: black;
+    z-index: 4; 
+    padding: 6px; 
+  }
+  ul{
+    padding: 0;
+    list-style: none;
+    color: rgb(49, 49, 49); 
+  }
+  ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 18px;
+    text-align: left;
+    color: black;
+  }
+  ul li a{
+    display: block;
+  }
+  ul li a:hover{
+  background-color: rgb(151, 184, 19); 
+  }
+  ul li ul.dropdown{
+    min-width: 175px; /* Set width of the dropdown */
+    background-color: black;
+    padding: 6px; 
+    word-spacing: 0px; 
+    display: none;
+    position: absolute;
+    opacity: 0.95; 
+    z-index: 5; 
+    left: 0;
+  }
+  ul li:hover ul.dropdown{
+    display: block; /* Display the dropdown */
+  }
+  ul li ul.dropdown li{
+    display: block;
+  }
+  /* // END OF NAV BAR DROPDOWN */
+  /* //////// ****** /////////////////////////// */
+  
+  
+  
+  /* //////// ****** /////////////////////////// */
+  /* // MEDIA QUERY FOR LOGO */
+  @media only screen and (max-width: 430px) {
+    #logo-main {
+      width: 115px; 
+      margin-left: .5em;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    #logo-main {
+      width: 200px; 
+      margin-left: .6em;
+    }
+  }
+  @media only screen and (max-width: 1035px) {
+    #logo-main {
+      width: 220px; 
+    }
+  }
+  /* // END OF MEDIA QUERY FOR LOGO */
+ /* //////// ****** /////////////////////////// */
+
+
+ 
+ /* //////// ****** /////////////////////////// */
+/* MEDIA QUERY FOR HEADER AND TRAILBLAZERS LINES  */
+  @media only screen and (max-width: 768px) {
+  #header-title {
+    position: absolute;
+    width:65vw;
+    margin-top: 35%;
+    margin-left: 6.5%;
+    } 
+  }
+  @media only screen and (max-width: 1250px) {
+    .navigation {
+      display: none;
+    }
+  }
+  /* END OF MEDIA QUERIES  */
+  /* //////// ****** /////////////////////////// */
+  
+ 
+ 
+  

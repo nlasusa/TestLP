@@ -1,0 +1,116 @@
+.whiteglobe-sub { background-image: url("../images/whiteglobe.jpg"); height: 300px; background-repeat: no-repeat;}
+
+.fraud-header {
+    font-family: 'Raleway'; 
+    font-size: 40px; 
+    font-weight: 300;
+    margin-bottom: -1px; 
+    margin-top: 10px; 
+    padding-top: 50px; 
+    text-align: center;
+    letter-spacing: .3rem;
+    color: black;
+  }
+  
+  .fraud-section .container {
+      font-family: 'Raleway'; 
+      height: 100%;
+      /* margin-top: 20px;  */
+      padding: 60px; 
+      margin-bottom: -10px; 
+      color: black;
+      /* border: 1px solid rgb(133, 133, 133); */
+      /* background-color: rgb(243, 243, 243); */
+  }
+
+  .fraud-subheader {
+    color: #0066c8;
+    font-size: 18px;
+    padding-bottom: 10px; 
+}
+  
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 14px/16px "Raleway" }
+
+#contact {
+	background:#000000;
+	padding:25px;
+	margin: 0px 0;
+}
+
+#contact h3 {
+    color: rgb(152, 185, 19); 
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+    font-size:15px;
+    color: white; 
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+    padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width: 40%;
+	border:none;
+    background:#0178e7;
+	color:#FFF;
+    margin: 0 auto;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+    background:rgb(123, 150, 18); 
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact  {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}

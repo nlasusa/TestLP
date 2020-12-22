@@ -1,0 +1,161 @@
+.whiteglobe-sub { background-image: url("../images/whiteglobe.jpg"); height: 300px; background-repeat: no-repeat;}
+
+.overlapping-feature {
+    width: 100%;
+    max-width: 1800px;
+    display: grid;
+    grid-template-rows: 650px;
+    grid-template-columns: 1fr;
+    align-items: stretch;
+  }
+  .overlapping-feature__container {
+    width: 100%;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  @media (max-width: 550px) {
+    .overlapping-feature {
+      grid-template-rows: 1fr !important;
+    }
+  }
+  .overlapping-feature__image {
+    position: relative;
+    width: 34vw;
+    max-width: 800px;
+    height: 80%;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 999;
+  }
+  @media (max-width: 1140px) {
+    .overlapping-feature__image {
+      display: none;
+    }
+  }
+  .overlapping-feature__image::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url("../images/practiceareas/globalsecurities.png");
+    background-position: 80% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 3px 25px -10px #000;
+  }
+  @media (min-width: 1756px) {
+    .overlapping-feature__image::after {
+      background-position: 100% 70% !important;
+    }
+  }
+  .overlapping-feature__content {
+    width: 56vw;
+    max-width: 1230px;
+    background-color: #fff;
+    box-shadow: -4px 5px 40px -20px rgba(0, 0, 0, 0.3);
+  }
+  @media (max-width: 1140px) {
+    .overlapping-feature__content {
+      width: 100%;
+    }
+  }
+  .overlapping-feature__content > div {
+    width: 30vw;
+    margin-left: 20%;
+    text-align: left;
+    align-items: flex-start;
+  }
+  @media (max-width: 550px) {
+    .overlapping-feature__content > div {
+      width: 100% !important;
+      margin: 0 !important;
+      padding: 30px;
+    }
+  }
+  @media (max-width: 1140px) {
+    .overlapping-feature__content > div {
+      width: 80% !important;
+      margin-left: 0 !important;
+    }
+  }
+  @media (min-width: 1756px) {
+    .overlapping-feature__content > div {
+      margin-left: 16% !important;
+    }
+  }
+  .overlapping-feature--left {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+  }
+  .overlapping-feature--right {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: end;
+  }
+  .overlapping-feature--center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .overlapping-feature h2 {
+    font-weight: 350;
+    font-size: 53px;
+    font-family: "Raleway";
+    line-height: 1.1em;
+    text-transform: uppercase;
+  }
+  .overlapping-feature p {
+    font: 500 16px "Raleway" !important;
+    padding-top: 20px;
+  }
+  .overlapping-feature h2,
+  .overlapping-feature p {
+    margin: 0;
+    color: #333;
+  }
+  
+  #project {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    font-family: 'Raleway';
+    margin-top: 180px; 
+    margin-bottom: 60px
+  }
+  
+  #project > div:first-of-type {
+    align-self: center;
+  }
+  
+  .associated-cases {
+    background-color: rgb(140, 170, 20); 
+    color: black;
+    margin-bottom: 500px; 
+    margin-left: 240px; 
+    position: absolute; 
+    padding: 10px; 
+    width: 200px;
+    font-size: 16px; 
+    text-align: center; 
+}
+
+  .associated-cases:hover {
+    cursor: pointer; 
+    background-color: rgb(123, 150, 18); 
+  }
+
+@media only screen and (max-width: 750px) {
+  .associated-cases {
+     display: none; 
+  }
+}
+
+ 
