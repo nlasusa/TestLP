@@ -4,17 +4,18 @@
   /* // BEGINNING OF NEWS SECTION ON MAIN LANDING PAGE // */
 #latest-headlines {
   font-family: 'Raleway'; 
-  font-size: 43px; 
-  padding-bottom: 30px; 
-  margin-top: -1px;
+  font-size: 37px; 
+  padding-bottom: 28px; 
+  margin-top: 35px;
   font-weight: 300; 
   color: black;
-  text-align: center; 
+  text-align: center;
+  letter-spacing: 8px; 
 }
 
 #latest-headlines:hover {
   cursor: pointer;
-  color:   #0371d8;
+   /* color:  #6e6e6e; */
 }
 
 
@@ -40,8 +41,8 @@
     background-color: rgb(245, 245, 245); 
     /* background-image: url(../images/news.png); */
     padding: 25px 10px 12px 23px;
-    border-top: 10.5px solid rgb(140, 170, 20);
-    height: 260px; 
+    border-top: 14px solid rgb(148, 179, 24);
+    height: 230px; 
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
   }
@@ -52,9 +53,10 @@
     cursor: pointer; 
   }
   .container .row.smallest-version .col-md-4 .news-card-container h2 {
-    font-size: 20px;
+    font-size: 17px;
     color: black;
-    font-weight: 900;
+    font-weight: 500;
+    letter-spacing: .5px; 
   }
   .container .row.smallest-version .col-md-4 .news-card-container p {
     font-size: 16px;
@@ -94,11 +96,17 @@
 
   .view-more-news {
     text-align: center; 
+    margin: auto;
     margin-top: -50px; 
+    margin-bottom: 47px; 
+    border: 1px solid black; 
+    width: 180px; 
+    padding: 15px; 
   }
 
   .view-more-news:hover {
-   color: rgb(148, 179, 24); 
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
    cursor: pointer; 
   }
   /* //////// ****** /////////////////////////// */
@@ -128,12 +136,12 @@
   .featured-header {
     font-family: 'Raleway'; 
     font-size: 40px; 
-    font-weight: 300;
+    font-weight: 290;
     margin-bottom: 60px; 
     margin-top: 5px;
     padding-top: 50px; 
     text-align: center;
-    letter-spacing: .3rem;
+    letter-spacing: .7rem;
     color: black;
   }
   .container .row.regular-version {
@@ -151,10 +159,10 @@
     background-image: url(../images/emily.png) !important;
   }
   .container .row.regular-version .col-md-4:nth-child(3) .img-child {
-    background-image: url(../images/emily.png) !important;
+    background-image: url(../images/wayfair.png) !important;
   }
-  .container .row.regular-version .col-md-4:nth-child(4) .img-child {
-    background-image: url(../images/whiteglobe.jpg) !important;
+  .container .row.regular-version .col-md-4:nth-child(2) .img-child {
+    background-image: url(../images/SOC.png) !important;
   }
   .container .row.regular-version .col-md-4 .news-card-container {
     padding-left: 15px;
@@ -241,5 +249,8 @@
     font-size: 30px; 
     padding-top: 0px;
   }
+}
 /* // END OF MEDIA QUERY NEWS STANDALONE PAGE// */
 /* //////// ****** /////////////////////////// */
+
+

@@ -10,7 +10,7 @@
     margin-top: 150px; 
     padding-top: 50px; 
     text-align: center;
-    letter-spacing: .3rem;
+    letter-spacing: .7rem;
     color: black;
   }
   
@@ -19,7 +19,7 @@
     height: 100%;
     /* margin-top: 20px;  */
     padding: 60px; 
-    margin-bottom: 20px; 
+    margin-bottom: 10px; 
     color: black;
     /* border: 1px solid rgb(184, 184, 184); */
     /* background-color: rgb(243, 243, 243); */
@@ -56,6 +56,7 @@ a:hover{
 .team-member {
   margin: 15px 0;
   padding: 0;
+  background-color: rgb(231, 231, 231); 
 }
 
 .team-member figure {
@@ -67,13 +68,20 @@ a:hover{
 
 .team-member figure img {
   min-width: 100%;
-  width: 350px; 
+  width: 280px; 
+  height: 280px; 
 }
 
 .team-member figcaption p {
-  font-size: 15px;
+  font-size: 14px;
   font-family: 'Raleway';
-  font-weight: 300px; 
+  /* font-weight: 300px;  */
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 15px; 
+  letter-spacing: 1px; 
 }
 
 .team-member figcaption ul {
@@ -98,14 +106,25 @@ a:hover{
 .team-member #people-name {
   margin: 10px 0 0;
   padding: 0;
-  font-size: 21.5px;
+  font-size: 17px;
 }
 
 #people-name:hover {
-  color: #006dd3;
+  color: rgb(4, 113, 223);
   cursor: pointer; 
 }
 
+.fa-envelope, .fa-phone, .fa-linkedin-in {
+  color: rgb(4, 113, 223);
+}
+
+#people-name {
+  background-color: white;
+}
+
+p{
+  background-color: white;
+}
 
 .team-member figcaption {
   padding: 50px;
@@ -187,7 +206,7 @@ a:hover{
 
 .devsite-products-alphabet-link:hover {
   text-decoration: none; 
-  color: #0066c8;
+  color: rgb(11, 113, 216);
   cursor: pointer; 
 }
 /* // end of alphabet people */
@@ -206,13 +225,26 @@ a:hover{
 #people-read {
   color: black;
   margin-top: 10px;  
-  background-color: rgb(140, 170, 20); 
+  background-color: rgb(151, 184, 19); 
   width: 135px; 
   text-align: center; 
   padding: 10px; 
 }
 
 #people-read:hover {
-  background-color: rgb(123, 150, 18); 
+  background-color: rgb(136, 167, 16); 
   cursor: pointer; 
+}
+
+@media only screen and (max-width: 730px) {
+  .team-member figure img {
+    width: 100px; 
+    height: 360px; 
+  }
+
+  .search-name {
+    padding: 20px; 
+    width: 385px; 
+  }
+  
 }

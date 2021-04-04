@@ -13,9 +13,9 @@
     margin-left: 6.5%;
   }
   #logo-main {
-    margin-top: .6em; 
+    margin-top: .5em; 
     margin-left: 1em; 
-    width: 315px;
+    width: 325px;
     border-radius: 0; 
     z-index: 5; 
     position: absolute;  
@@ -47,7 +47,7 @@
   }
   .navbar-right a:hover{
      background-color: rgb(151, 184, 19); 
-     color: rgb(49, 49, 49); 
+     color: black;
   }
   #practice-areas {
     word-spacing: 3px; 
@@ -83,7 +83,8 @@
   }
   ul li ul.dropdown{
     min-width: 175px; /* Set width of the dropdown */
-    background-color: black;
+    /* background-color: rgb(228, 228, 228); */
+    background-color: black; 
     padding: 6px; 
     word-spacing: 0px; 
     display: none;

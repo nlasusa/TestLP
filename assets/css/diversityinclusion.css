@@ -1,0 +1,35 @@
+.diversityinclusion-image { background-image: url("../images/diversity.jpg"); height: 300px; background-repeat: no-repeat;}
+  /* //////// ****** /////////////////////////// */
+  /* // DATA SECURITY // */
+    .diversityinclusion-header {
+    font-family: 'Raleway'; 
+    font-size: 40px; 
+    font-weight: 290;
+    margin-bottom: -1px; 
+    margin-top: 10px; 
+    padding-top: 50px; 
+    text-align: center;
+    letter-spacing: .7rem;
+    color: black;
+  }
+  
+  .diversityinclusion-section .container {
+      font-family: 'Raleway'; 
+      height: 100%;
+      font-weight: 400; 
+      /* margin-top: 20px;  */
+      padding: 60px; 
+      margin-bottom: 20px; 
+      color: rgb(5, 106, 207);
+      /* border: 1px solid rgb(184, 184, 184); */
+      /* background-color: rgb(243, 243, 243); */
+  }
+  
+  .diversityinclusion-subheader {
+    font-family: 'Playfair Display', serif;
+    font-weight: 450;
+    font-size: 17.5px;
+    text-align: justify;
+    color: black;
+    padding-bottom: 40px; 
+  }

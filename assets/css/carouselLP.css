@@ -1,0 +1,93 @@
+
+.arrows {
+    width: 35px;
+    height: 35px;
+    color: rgb(214, 214, 214);
+    position: relative;
+    z-index: 5; 
+    float: right;
+  }
+ 
+  
+  .next {
+    margin-right: 50px; 
+    margin-top: 285px;
+    border-bottom: 6px solid;
+    border-left: 6px solid;
+    transform: rotate(-135deg);
+    right: 10px;
+  }
+
+  .next2 {
+    margin-right: 50px; 
+    border-bottom: 6px solid;
+    margin-top: 205px;
+    border-left: 6px solid;
+    transform: rotate(-135deg);
+    right: 10px;
+  }
+
+  .arrows:hover {
+      cursor: pointer; 
+  }
+
+  .latest-headlines {
+      display: none; 
+  }
+
+  .next2 {
+      display: none; 
+  }
+/* 
+  @media only screen and (max-width: 2000px) {
+    .arrows {
+      position: absolute;
+      top: 117%;
+      margin-top: -31px;
+    }
+  }
+
+  @media only screen and (max-width: 1600px) {
+    .arrows {
+      position: absolute;
+      top: 140%;
+      margin-top: -31px;
+    }
+  }
+
+  @media only screen and (max-width: 1400px) {
+    .arrows {
+      position: absolute;
+      top: 152%;
+      margin-top: -31px;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .arrows {
+      position: absolute;
+      top: 145%;
+      left: 90%;
+      margin-top: -31px;
+    }
+  }
+
+
+  @media only screen and (max-width: 1100px) {
+    .arrows {
+      position: absolute;
+      top: 134%;
+      left: 90%;
+      margin-top: -31px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .arrows {
+      position: absolute;
+      top: 55%;
+      margin-top: -31px;
+      width: 22px;
+      height: 22px;
+    }
+  } */

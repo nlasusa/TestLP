@@ -4,12 +4,12 @@
   .overview-header {
     font-family: 'Raleway'; 
     font-size: 40px; 
-    font-weight: 300;
-    margin-bottom: -3px; 
+    font-weight: 290;
+    margin-bottom: -20px; 
     margin-top: 10px; 
     padding-top: 50px; 
     text-align: center;
-    letter-spacing: .3rem;
+    letter-spacing: .7rem;
     color: black;
   }
   
@@ -25,17 +25,20 @@
 }
 
 .overview-subheader {
-    color: #0066c8;
-    font-weight: bold; 
-    font-size: 18px;
-    padding-bottom: 10px; 
+    font-family: 'Playfair Display', serif;
+    font-weight: 450;
+    font-size: 17.5px;
+    text-align: justify;
+    padding-bottom: 25px; 
 }
 
 .overview-subheader2 {
-    color: rgb(140, 170, 20); 
-    font-weight: bold; 
-    font-size: 18px;
-    padding-bottom: 2px; 
+     color: rgb(140, 170, 20); 
+    /* font-family: 'Playfair Display', serif; */
+    font-weight: 500;
+    font-size: 19px;
+    letter-spacing: .1em; 
+    padding-bottom: 15px; 
 }
   /* //////// ****** /////////////////////////// */
   /* // END OF OVERVIEW PAGE  // */

@@ -3,7 +3,8 @@
 .insights-section {
     color: black;
     font-size: 40px; 
-    font-weight: 300;
+    font-weight: 290;
+    letter-spacing: .7rem;
     font-family: 'Raleway';
     text-align: center; 
     margin-top: 45px; 
@@ -153,11 +154,11 @@
   .insights-text-section {
     font-size: 20px; 
     margin: auto; 
-    border: 1px solid black; 
+    /* border: 1px solid black;  */
     padding: 50px; 
     font-weight: 400;
     font-family: 'Raleway';
-    letter-spacing: 2px; 
+    letter-spacing: .2em; 
   }
  
   #row-1, #row-2, #row-3, #row-4, #row-5 {
@@ -167,7 +168,7 @@
   #row-1:hover, #row-2:hover, #row-3:hover, #row-4:hover, #row-5:hover {
     margin: 0 auto; 
     cursor: pointer; 
-    color: #0178e7;
+    color: rgb(4, 113, 223);
   }
 
   #download {

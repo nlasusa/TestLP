@@ -2,10 +2,18 @@
 /* // BEGINNING OF SOCIAL MEDIA BUTTONS */
 #social {
     text-align: center;
-    padding-top: 46px; 
-    padding-bottom: 30px; 
-    background-color: white;
+    padding-top: 35px; 
+    padding-bottom: 35px; 
+    background-color: none;
   }
+
+  #social1 {
+    text-align: center;
+    padding-top: 35px; 
+    padding-bottom: 35px; 
+    background-color: rgb(247, 247, 247);;
+  }
+  
   
   .smGlobalBtn { /* global button class */
       display: inline-block;
@@ -13,12 +21,12 @@
       cursor: pointer;
       width: 50px;
       height: 50px;
-      border:2px solid #ddd; /* add border to the buttons */
       padding: 0px;
       text-decoration: none;
       text-align: center;
+      margin-bottom: -30px;
       color: #fff;
-      background-color: black; 
+      background-color: none;
       font-size: 25px;
       font-weight: normal;
       line-height: 2em;
@@ -29,13 +37,13 @@
 
   .smGlobalBtn:hover {
     color: rgb(20, 20, 20);
-    background: white; 
     border-color: rgb(142, 177, 37);  /* change the border color on mouse hover */
+    text-decoration: none; 
   }
   
   /* facebook button class*/
   .facebookBtn{
-      background: black;
+    color: rgb(2, 113, 224);
   }
   
   .facebookBtn:before{ /* use :before to add the relevant icons */
@@ -44,14 +52,12 @@
   }
   
   .facebookBtn:hover{
-      color: black;
-      background: white; 
-      border-color: rgb(142, 177, 37);  /* change the border color on mouse hover */
+    color: rgb(4, 92, 180);
   }
   
   /* twitter button class*/
   .twitterBtn{
-    background: black;
+    color: rgb(2, 113, 224);
   }
   
   .twitterBtn:before{
@@ -61,9 +67,7 @@
   }
   
   .twitterBtn:hover{
-    color: rgb(20, 20, 20);
-    background: white; 
-    border-color: rgb(142, 177, 37);  /* change the border color on mouse hover */
+    color: rgb(4, 92, 180);
   }
   
   /* google plus button class*/
@@ -77,14 +81,21 @@
   }
   
   .googleplusBtn:hover{
-    color: rgb(20, 20, 20);
-    background: white; 
-    border-color: rgb(142, 177, 37);  /* change the border color on mouse hover */
+    color: #056dcf;
+  }
+
+  .fa-instagram {
+    color: rgb(2, 113, 224);
+    font-size: 22px; 
+  }
+
+  .fa-instagram:hover{
+    color: rgb(4, 92, 180);
   }
   
   /* linkedin button class*/
   .linkedinBtn{
-      background: black;
+    color: rgb(2, 113, 224);
   }
   
   .linkedinBtn:before{
@@ -93,9 +104,7 @@
   }
   
   .linkedinBtn:hover{
-    color: rgb(20, 20, 20);
-    background: white; 
-    border-color: rgb(142, 177, 37);  /* change the border color on mouse hover */
+    color: rgb(4, 92, 180);
   }
   
   #allRights {
@@ -103,6 +112,31 @@
     color: black;
     padding-top: 15px; 
   }
+
+  #offices1 {
+    font-size: 10px;
+    color: black;
+  }
+
+  #offices1:hover {
+    cursor: pointer; 
+    color: rgb(142, 177, 37);  
+  }
+
+
+  #offices2 {
+    font-size: 10px;
+    color: black;
+  }
+
+  #offices2:hover {
+    cursor: pointer; 
+    color: rgb(142, 177, 37);  
+  }
+  
+
+
+  
 /* // END OF SOCIAL MEDIA BUTTONS */
 /* //////// ****** /////////////////////////// */
 
@@ -111,7 +145,6 @@
   padding-top: 250px; 
 }
 }
-
 
 
 

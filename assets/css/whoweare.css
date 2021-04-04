@@ -2,14 +2,15 @@
 /* //////// ****** /////////////////////////// */
 /* // BEGINNING OF WHO WE ARE SECTION */
 .white {background-color: rgb(255, 255, 255); height: 100%;}
+/* .white2 {background-color: rgb(245, 245, 245); height: 240px; } */
 
 .about-us {
   padding-top: 100px; 
-  padding-bottom: 80px; 
+  padding-bottom: 59px; 
   margin: 0 auto; 
   width: 1130px;
   max-width: 90%;
-  margin-top: -25px; 
+  margin-top: -48px; 
   color: black;
 }
 .about-us::after {
@@ -20,30 +21,33 @@
 
 #about-us-read {
   color: black; 
+  font-weight: 400;
   border: 1px solid black; 
   width: 151px;
   padding: 10px; 
   text-align: center; 
-  font-size: 17.5px; 
+  font-size: 16px; 
   font-family: 'Raleway';
   margin-top: 18px;
 }
 
 #about-us-read:hover {
   cursor: pointer;
-  color: rgb(138, 171, 37); 
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 .about-us article h2 {
   margin: 0;
   font-family: Raleway; 
-  font-size: 50px;
-  font-weight: 300;
+  font-size: 45px;
+  font-weight: 270;
+  letter-spacing: 2px; 
   color: black;
 }
 .about-us article p {
   margin-top: 4px; 
   margin-bottom: 0em;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 28px;
   font-weight: 245;
   color: black;
@@ -72,10 +76,13 @@
   }
 }
 .about-us aside ul li:first-child {
-  background-color: rgb(140, 170, 20); 
+  background-color: rgb(151, 184, 19); 
+  font-family: 'Raleway';
 }
+
 .about-us aside ul li:nth-child(2) {
-  background-color: #0066c8;
+  /* background-color: #0066c8; */
+  background-color: rgb(4, 113, 223);
 }
 .about-us aside ul li:nth-child(3) {
   background-color: black;

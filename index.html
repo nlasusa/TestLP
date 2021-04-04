@@ -14,10 +14,12 @@
     <link rel="stylesheet" href="assets/css/whoweare.css">
     <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/testimonials.css">
+    <link rel="stylesheet" href="assets/css/carouselLP.css">
     <link rel="stylesheet" href="assets/css/awards.css">
     <link rel="stylesheet" href="assets/css/socialmediabuttons.css">
     <link rel="stylesheet" href="assets/css/news.css">
     <link rel="stylesheet" href="assets/css/cont.css">
+    <link rel="stylesheet" href="assets/css/split-sectionLP.css">
      <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
@@ -40,12 +42,14 @@
 
 <!-- /////////////////////////////////////////// -->
 <!-- // BEGINNING OF NAV BAR, HEADER, VIDEO SECTION -->
+
   <div class="header-wrapper">
     <header>
 
         <div class="header">
-
+          <i class="fas fa-bars"></i>
           <nav class="navigation">
+          
             <div class="navbar-right">
 
             <ul>
@@ -53,10 +57,11 @@
                 <ul class="dropdown">
                   <li><a href="#" id="dropdown-overview">Overview</a></li>
                   <li><a href="#" id="dropdown-testimonials">Testimonials</a></li>
+                  <li><a href="#" id="dropdown-security">Data Security</a></li>
                   <li><a href="#" id="dropdown-community">In the Community</a></li>
-                  <li><a href="#" id="dropdown-trialexperience">Trial Experience</a></li>
-                  <li><a href="#" id="dropdown-FAQs">FAQs</a></li>
+                  <li><a href="#" id="dropdown-diversity">Diversity & Inclusion</a></li>
                   <li><a href="#" id="dropdown-sustainability">Sustainability</a></li>
+                  <li><a href="#" id="dropdown-FAQs">FAQs</a></li>
                 </ul>
               </li>
 
@@ -67,20 +72,22 @@
               <ul class="dropdown">
                 <li><a href="#" id="dropdown-USsecurities">Securities Class Actions</a></li>
                 <li><a href="#" id="dropdown-globalsecurities">Global Shareholder Litigation</a></li>
-                  <li><a href="#">Mergers & Acquisitions</a></li>
-                  <li><a href="#">Shareholder Derivative</a></li>
+                <li><a href="#">Fiduciary Litigation</a></li>
+                <li><a href="#">Direct & Opt-Out Actions</a></li>
                   <li><a href="#">Consumer Fraud & Antitrust</a></li>
-                  <li><a href="#" id="dropdown-corporategov">Corporate Governance</a></li>
-                  <li><a href="#">Whistleblower Representation</a></li>
+                  <li><a href="#" id="dropdown-corporategov">Corporate Governance & M&A Litigation</a></li>
+                  <li><a href="#">Abitration</a></li>
+                  <li><a href="#" id="dropdown-whistleblower">Whistleblower Representation</a></li><br>
+                  <li><img src="assets/images/unnamed2.png" id="ST-logo-main"></li>
                 </ul>
             </li>
 
             <li><a href="#">CASES</a>
               <ul class="dropdown">
-                <li><a href="#">New Cases</a></li>
-                  <li><a href="#">Current Cases</a></li>
-                  <li><a href="#">Settled Cases</a></li>
-                  <li><a href="#">Landmark Results</a></li>
+                <li><a href="#" id="dropdown-newcases">New Cases</a></li>
+                <li><a href="#" id="dropdown-currentcases">Current Cases</a></li>
+                  <li><a href="#" id="dropdown-settledcases">Settled Cases</a></li>
+                  <li><a href="#" id="dropdown-landmark">Landmark Results</a></li>
                 </ul>
             </li>
 
@@ -90,6 +97,7 @@
                 <li><a href="#" id="dropdown-insights">Insights</a></li>
                 <li><a href="#" id="dropdown-awards">Awards & Achievements</a></li>
                 <li><a href="#" id="dropdown-conferences">Conferences</a></li>
+                <li><a href="#" id="dropdown-videos">Videos</a></li>
               </ul>
             </li>
 
@@ -98,37 +106,34 @@
                 <li><a href="#" id="dropdown-offices">Offices</a></li>
                   <li><a href="#">Careers</a></li>
                   <li><a href="#" id="dropdown-contact">General Inquiry</a></li>
-                  <li><a href="#" id="dropdown-fraud">Report Fraud</a></li>
+                  <li><a href="#" id="dropdown-fraud">Report a Fraud</a></li>
                   <li><a href="#">Subscribe</a></li>
                 </ul>
             </li>
+
+            <li><img src="assets/images/unnamed.png" id="ST-logo-main"></li>
             </ul>
+
+          
 
             </div>
           </nav>
         </div>
-  
+      
     <!-- // KTMC LOGO  -->
-    <h1 class="logo"><img id="logo-main" src="assets/images/ktmc.png"></h1>
+    <h1 class="logo"><img id="logo-main" src="assets/images/ktmc1.png"></h1>
+    <!-- <h1 class="logo2"><img id="logo-ST" src="assets/images/STlogo.png"></h1> -->
     <!-- // END OF KTMC LOGO  -->
-    
+    <!-- // END OF NAV BAR & HEADER -->
+<!-- /////////////////////////////////////////// -->
     <!-- // TRAILBLAZERS TAG LINE  -->
     <div class="trailblazers-line1" data-aos="fade-right">
      Trailblazers in
     </div>
     
-    <div class="trailblazers-line3" data-aos="fade-right">
-      Focused on Clients, 
-     </div>
-
     <div class="trailblazers-line2" data-aos="fade-left">
       Complex Litigation
     </div>
-
-    <div class="trailblazers-line4" data-aos="fade-right">
-      Committed to Results 
-     </div>
-
     <!-- // TRAILBLAZERS TAG LINE  -->
 
     <!-- // ARROW DOWN -->
@@ -142,7 +147,7 @@
 
     <!-- // VIDEO AND OVERLAY  -->
     <div class="overlay"></div>
-    <video autoplay muted loop id="video-bg"><source src="assets/mp4/testing.mp4" type="video/mp4"></video>
+    <video autoplay muted loop id="video-bg"><source src="assets/mp4/combined.mp4" type="video/mp4"></video>
     <img src="assets/images/blackandwhite.jpg" id="mobile-bg">
     <!-- // END OF VIDEO AND OVERLAY  -->
   
@@ -151,18 +156,22 @@
 <!-- // END OF NAV BAR, HEADER, VIDEO SECTION -->
 <!-- /////////////////////////////////////////// -->
 
-
-
 <!-- /////////////////////////////////////////// -->
 <!-- BEGINNING OF WHO WE ARE SECTION -->
 <div class="bg-image white">
+  <div class="arrows next"></div>
+<div class="arrows next2"></div>
   <div class="container">
+
+    <!-- <div class="arrows prev"></div> -->
+
+
 
   <div class="about-us" data-aos="fade-left" id="about">
 
       <article>
         <h2>Who We Are</h2>
-        <p>KTMC is one of the world’s foremost advocates in protecting the public against corporate fraud and other wrongdoing.  Our lawyers regularly take on the foremost defense attorneys — and win — in class actions, shareholder derivative suits, antitrust litigation and other complex litigation around the globe. We are proud to have recovered billions of dollars for our clients.<div id="about-us-read">Read More</div></p>
+        <p>KTMC is one of the world’s foremost advocates in protecting the public against corporate fraud and other wrongdoing.  Our lawyers regularly take on the foremost defense attorneys — and win — in class actions, shareholder derivative suits, antitrust litigation and other complex litigation around the globe. We are proud to have recovered billions of dollars for our clients.<div id="about-us-read">LEARN MORE</div></p>
       </article>
     
       <aside>
@@ -191,6 +200,44 @@
   </div>
     </div>
 
+    <div class="container">
+      <div class="latest-headlines">
+      <div id="latest-headlines" data-aos="fade-down">LATEST HEADLINES</div>
+    
+      <div class="row smallest-version" data-aos="fade-down">
+    
+        <div class="col-md-4">
+          <div class="news-card-container">
+            <p>9/15/20</p>
+            <h2>KTMC is Pleased to Announce that Emily N. Christiansen Has Been Named a Fellow of the American Bar Foundation</h2>
+            <a href="#">READ MORE</a>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="news-card-container">
+            <p>9/15/20</p>
+            <h2>KTMC Once Again Included in the Benchmark Litigation Guide to America's Leading Litigation Firms and Attorneys for 2021</h2>
+            <a href="#">READ MORE</a>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="news-card-container">
+            <p>9/15/20</p>
+            <h2>Former Federal Prosecutor Jamie <br> M. McCall Joins KTMC Securities Litigation Group</h2>
+            <a href="#">READ MORE</a>
+          </div>
+        </div>
+        
+      </div>
+    
+      <div class="view-more-news">MORE FIRM NEWS</div>
+      
+      </div>
+    </div>
+    </div>
+
 </div>
 <!-- END OF WHO WE ARE SECTION-->
 <!-- /////////////////////////////////////////// -->
@@ -199,8 +246,8 @@
 
 <!-- /////////////////////////////////////////// -->
 <!-- // BEGINNING OF NEWS SECTION -->
-<div id="latest-headlines" data-aos="fade-down">LATEST HEADLINES</div>
-<div class="container">
+<!-- <div class="container">
+  <div id="latest-headlines" data-aos="fade-down">LATEST HEADLINES</div>
 
   <div class="row smallest-version" data-aos="fade-down">
 
@@ -208,7 +255,7 @@
 			<div class="news-card-container">
         <p>9/15/20</p>
 				<h2>KTMC is Pleased to Announce that Emily N. Christiansen Has Been Named a Fellow of the American Bar Foundation</h2>
-				<a href="#">Read more</a>
+				<a href="#">READ MORE</a>
 			</div>
     </div>
     
@@ -216,7 +263,7 @@
 			<div class="news-card-container">
         <p>9/15/20</p>
 				<h2>KTMC Once Again Included in the Benchmark Litigation Guide to America's Leading Litigation Firms and Attorneys for 2021</h2>
-        <a href="#">Read more</a>
+        <a href="#">READ MORE</a>
 			</div>
     </div>
     
@@ -224,18 +271,50 @@
 			<div class="news-card-container">
         <p>9/15/20</p>
 				<h2>Former Federal Prosecutor Jamie <br> M. McCall Joins KTMC Securities Litigation Group</h2>
-				<a href="#">Read more</a>
+				<a href="#">READ MORE</a>
 			</div>
     </div>
     
   </div>
 
-  <div class="view-more-news">View More News</div>
+  <div class="view-more-news">MORE FIRM NEWS</div>
   
 	</div>
-</div><br><br><br>
+</div><br><br><br> -->
   <!-- // END OF NEWS SECTION  -->
 <!-- /////////////////////////////////////////// -->
+
+
+<!-- /////////////////////////////////////////// -->
+<!-- // BEGINNING OF SPLIT SECTION -->
+<div class="splitview skewed" data-aos="fade-down">
+  <div class="panel bottom">
+      <div class="content">
+          <div class="description">
+              <h1>SETTLEMENT NOTICES</h1>
+              <p id="settlement-notice">VIEW HERE</p>
+          </div>
+
+          <img src="assets/images/settlement.jpg" alt="Original">
+      </div>
+  </div>
+
+  <div class="panel top">
+      <div class="content">
+          <div class="description">
+              <h1>NEW CASES</h1>
+              <p id="new-case-notice">VIEW HERE</p>
+          </div>
+
+          <img src="assets/images/cases.jpg" alt="Duotone">
+      </div>
+  </div>
+
+  <div class="handle"></div>
+</div><br><br><br>
+  <!-- // END OF SPLIT SECTION  -->
+<!-- /////////////////////////////////////////// -->
+
 
 
 <!-- /////////////////////////////////////////// -->
@@ -259,8 +338,10 @@
   </div>
 
   <div id="box3" data-aos="fade-right">
+    <div id="box3-text">
     "It was a hard-fought case, and I think that the legal work on this case has just been absolutely spectacular, and I want to brag on all of you for the work that you put into it...
-    <div id="box3-speaker">
+  </div>
+  <div id="box3-speaker">
         - The Honorable Kimberly E. West, United States Magistrate, Judge
         United States District Court for the Eastern District of Oklahoma
     </div>
@@ -268,7 +349,7 @@
   </div>
 
 </div>
-<br><br><br><br><br><br><br>
+<br><br><br><br><br>
 <!-- END OF TESTIMONIALS SECTION -->
 <!-- /////////////////////////////////////////// -->
 
@@ -290,53 +371,59 @@
         </ul>
       </div>
     </div>
-  </div> <br><br>
+  </div> 
    <!-- END OF AWARDS & ACHIEVEMENTS SECTION --> 
    <!-- /////////////////////////////////////////// -->
 
-
+  <br><br>
 
 <!-- /////////////////////////////////////////// -->
 <!-- // UKNOWN SECTION AT THE MOMENT  -->
-<div class="bg-image whiteglobe" data-aos="fade-down">
+<!-- <div class="bg-image white2" data-aos="fade-down"> -->
 
   <!-- // contact us  -->
-  <div class="contact-LP">
-    CONTACT US 
-  </div>
+  <!-- <div class="contact-LP"> -->
+    <!-- CONTACT US  -->
+  <!-- </div>
 
-  <div class="contact-addresses">
-  <span style="color: rgb(140, 170, 20);">Pennsylvania</span> <br>
+  <div class="contact-addresses1">
+  <span style="color: black; text-decoration: underline">Pennsylvania</span> <br>
   280 King of Prussia Road <br>
   Radnor, PA 19087 <br>
   P 610.667.7706 <br>
-  F 610.667.7056 <br><br><br>
+  F 610.667.7056 <br>
+  <div class="contact-email">
+    info@ktmc.com
+  </div><br><br>
+  </div>
 
-  <span style="color: rgb(140, 170, 20);">California </span><br>
+  <div class="contact-addresses2">
+  <span style="color: black; text-decoration: underline">California </span><br>
   One Sansome Street <br>
   Suite 1850 <br>
   San Francisco, CA 94104 <br>
   P 415.400.3000 <br>
   F 415.400.3001 <br>
-  </div><br><br>
-
   <div class="contact-email">
     info@ktmc.com
   </div>
+  </div><br><br> -->
   <!-- // end of contact us -->
 
-</div>
+<!-- </div><br><br><br><br><br><br><br> -->
 <!-- // END OF UKNOWN SECTION AT THE MOMENT  -->
 <!-- /////////////////////////////////////////// -->
 
 
 <!-- /////////////////////////////////////////// -->
 <!-- BEGINNING OF SOCIAL MEDIA BUTTONS -->
-  <div id="social">
+  <div id="social1">
 			<a class="facebookBtn smGlobalBtn" href="#"></a>
 			<a class="twitterBtn smGlobalBtn" href="#" ></a>
       <a class="linkedinBtn smGlobalBtn" href="#" ></a>
+      <i class="fab fa-instagram smGlobalBtn" href="#"></i>
       <div id="allRights">KESSLER TOPAZ MELTZER & CHECK, LLP 2020 ALL RIGHTS RESERVED.</div>
+      <div id="offices1">PENNSYLVANIA OFFICE</div>  <div id="offices2">CALIFORNIA OFFICE </div>
 	</div>
 <!-- END OF SOCIAL MEDIA BUTTONS -->
 <!-- /////////////////////////////////////////// -->
